@@ -23,24 +23,6 @@ html, body { height:100%;}
 	font-size:.8125em;
 }
 
-
-.header-top {
-BACKGROUND: #242424;
-PADDING-TOP: 1px;
-
-HEIGHT: 32px;
-WIDTH:  1000px
-}
-
-
-.header-top A {
-COLOR: white;
-FONT-SIZE: 12px;
-TEXT-DECORATION: none;
-}
-
-
-
 	/* Header */
 	header{
 		height:72px;
@@ -50,7 +32,7 @@ TEXT-DECORATION: none;
 	
 	/*Gallery*/
 	#gallery {
-		height:260px;
+		height:496px;
 		overflow:hidden;
 		background:url(../images/gallerry-bg.gif) 0 0 repeat-x;
 	}
@@ -73,6 +55,8 @@ TEXT-DECORATION: none;
 		padding:20px 0 22px 0;
 		border-top:5px solid #eee;
 	}
+
+
 
 
 /* Left & Right alignment */
@@ -419,26 +403,26 @@ footer {
 
 
 /*----- forms -----*/
-#myForm { 
+#contacts-form { 
 	clear:right;
 	width:100%;
 	overflow:hidden;
 }
-	#myForm fieldset { 
+	#contacts-form fieldset { 
 		border:none;
 		float:left;
 	}
-		#myForm .field { 
+		#contacts-form .field { 
 			clear:both;
 		}
-			#myForm label { 
+			#contacts-form label { 
 				float:left;
 				width:110px;
 				line-height:18px;
 				padding-bottom:6px;
 				font-weight:bold;
 			}
-			#myForm input {
+			#contacts-form input {
 				width:205px;
 				padding:1px 0 1px 3px;
 				background:none;
@@ -446,10 +430,10 @@ footer {
 				color:#616161;
 				float:left
 			}
-			#myForm input:invalid {
+			#contacts-form input:invalid {
 				border-color:red;
 			}
-			#myForm textarea { 
+			#contacts-form textarea { 
 				width:450px;
 				height:215px;
 				padding:1px 0 1px 3px;
@@ -460,7 +444,7 @@ footer {
 				overflow:auto;
 				float:left;
 			}
-			#myForm div:last-child {
+			#contacts-form div:last-child {
 				padding-left:110px;
 			}
 
